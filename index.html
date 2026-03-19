@@ -4,100 +4,124 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jeff3rson Martins Aulas de Música</title>
+
 <style>
-body {font-family: Arial; margin:0; background:#0f172a; color:#e5e7eb;}
-header {text-align:center; padding:40px; background:#1e3a8a;}
-section {padding:25px; max-width:900px; margin:auto; white-space:pre-line;}
-a {color:#60a5fa;}
-.button {display:block; text-align:center; margin:30px auto; background:#22c55e; color:#022c22; padding:15px; border-radius:999px; text-decoration:none; max-width:300px;}
+body{margin:0;font-family:Arial;background:#0f172a;color:#e5e7eb}
+
+header{
+background:linear-gradient(135deg,#1e3a8a,#2563eb);
+padding:90px 20px;
+text-align:center;
+}
+
+header h1{margin:0;font-size:2.6rem}
+header p{opacity:.9;margin-top:10px}
+
+.cta{
+display:inline-block;
+margin-top:25px;
+background:#22c55e;
+color:#022c22;
+padding:18px 32px;
+border-radius:999px;
+text-decoration:none;
+font-weight:bold;
+font-size:1.1rem;
+box-shadow:0 8px 20px rgba(34,197,94,.4);
+animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+0%{transform:scale(1)}
+50%{transform:scale(1.05)}
+100%{transform:scale(1)}
+}
+
+section{max-width:900px;margin:50px auto;padding:0 20px}
+
+.card{
+background:#020617;
+border-radius:18px;
+padding:28px;
+margin-bottom:30px;
+box-shadow:0 10px 30px rgba(0,0,0,.5);
+animation:fadeUp .8s ease;
+}
+
+h2{color:#60a5fa;margin-top:0}
+
+@keyframes fadeUp{
+from{opacity:0;transform:translateY(25px)}
+to{opacity:1;transform:translateY(0)}
+}
+
+.highlight{color:#22c55e;font-weight:bold}
+
+.floating{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#22c55e;
+color:#022c22;
+padding:15px 20px;
+border-radius:999px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 8px 20px rgba(0,0,0,.4);
+}
 </style>
 </head>
+
 <body>
 
 <header>
 <h1>Jeff3rson Martins Aulas de Música</h1>
+<p>Mais de 20 anos formando músicos do zero ao avançado</p>
+
+<a class="cta" href="https://wa.me/5521988015441" target="_blank">
+🔥 Agendar Aula Agora
+</a>
 </header>
 
-<section>
-___________________________
-        APRESENTAÇÃO
-___________________________
-
-Olá, tudo bem?
-Meu nome é Jefferson Martins, sou professor de música com mais de 20 anos de experiência no ensino particular, atuando no município onde resido.
-
-Ofereço aulas individuais de: Violão , Guitarra, Baixo, Teclado, Canto e Cavaquinho. Aulas individuais. 
-Tem a possibilidade de ser em grupo, caso seja do interesse dos alunos e dos responsáveis.
-
-Minha metodologia é totalmente personalizada, adaptando-se ao perfil e objetivo de cada aluno(a). Não vendo materiais como livros ou apostilas que só encarecem o serviço prestado.
-
-___________________________________
-   FUNCIONAMENTO DAS AULAS
-___________________________________
-
-"PACOTE MENSAL": 
-São 4 aulas por mês.
-1 hora de aula por semana, válido para qualquer modalidade de aula. 
-Dias disponíveis: Segunda, Terça, Quarta, Quinta e Sexta.
-
-"AULAS AVULSAS" 
-Paga na hora da aula.
-Pode ser em qualquer dia da semana mediante a uma marcação prévia.
-OBS: Se quiser ter aula no Sábado ou Domingo, somente avulsa.
-
-As aulas podem ser:
-
-No espaço do professor;
-
-Na residência do aluno(a);
-
-Online.
-
------------------------------
-TABELA DE PREÇOS 2026
------------------------------
-
-PACOTE MENSAL
-
-R$ 150,00 Pacote Mensal (Espaço do Prof. ou Online)
-
-R$ 170,00 Pacote Mensal em Domicílio + R$ 1,50/km
-___________________________________
-
-
-AULA AVULSA
-
-R$ 50,00 aula Avulsa (Online ou no espaço do Prof.)
-
-R$ 55,00 aula Avulsa em Domicílio + R$ 1,50/km.
-
-
- _______________________________
-                ENDEREÇO 
-_______________________________
-
-ESPAÇO DO PROFESSOR NO GOOGLE MAPS. 
-Para visualizar basta clicar no link abaixo:
-
-https://g.page/r/CeGVWmwY6O9yEBE/review
-
-___________________________________
-          CANAL DO YOUTUBE
-             Jeff3rson Martins
-___________________________________
-
-"PROF. TOCANDO E CANTANDO"
-https://www.youtube.com/watch?v=H4wWLK0YaKA&list=PLXeW_Viwfc8W0NKGEFwWKiX1l6wsBgkf-
-
-_________________________________
-
-"ALUNOS EM AÇÃO"
-https://www.youtube.com/watch?v=qBAYfVsY50g&list=PLXeW_Viwfc8V2qEAKXuRxERYvw7jDsVrO
-
+<section class="card">
+<h2>APRESENTAÇÃO</h2>
+<p>
+Olá, tudo bem?<br><br>
+Meu nome é Jefferson Martins, sou professor de música com mais de 20 anos de experiência no ensino particular.<br><br>
+Ofereço aulas de Violão, Guitarra, Baixo, Teclado, Canto e Cavaquinho.<br><br>
+<span class="highlight">Método totalmente personalizado para cada aluno.</span>
+</p>
 </section>
 
-<a class="button" href="https://wa.me/5521988015441" target="_blank">
-Agendamentos pelo WhatsApp
+<section class="card">
+<h2>POR QUE ESCOLHER?</h2>
+<p>
+✔ Evolução rápida<br>
+✔ Aulas personalizadas<br>
+✔ Sem material caro obrigatório<br>
+✔ Atendimento direto com o professor
+</p>
+</section>
+
+<section class="card">
+<h2>PREÇOS 2026</h2>
+<p>
+R$150 Mensal (Online/Espaço)<br>
+R$170 Domicílio + km<br><br>
+R$50 Avulsa<br>
+R$55 Domicílio + km
+</p>
+</section>
+
+<section class="card">
+<h2>LOCALIZAÇÃO</h2>
+<p>
+<a href="https://g.page/r/CeGVWmwY6O9yEBE/review" target="_blank">Abrir no Google Maps</a>
+</p>
+</section>
+
+<a class="floating" href="https://wa.me/5521988015441" target="_blank">
+WhatsApp
 </a>
 
 </body>
